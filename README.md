@@ -46,13 +46,21 @@ Python · Scikit-learn · Streamlit · Plotly · Pandas · Joblib
 🔭 **Future Scope**
 
 **Model improvements**: Compare Logistic Regression against Random Forest, XGBoost, and LightGBM to see if accuracy/ROC-AUC can be improved
+
 **Explainability**: Add SHAP values for more rigorous, per-customer prediction explanations (currently uses raw model coefficients)
+
 **Automated testing**: Add unit tests for preprocess.py and predict.py so changes don't silently break the pipeline
+
 **CI/CD**: Add a GitHub Actions workflow to run tests automatically on every push
+
 **Retention tab**: Build out the "Retention" and "Reports" tabs (currently placeholders) — e.g. a retention-offer simulator showing how discounts/upgrades change predicted churn risk
+
 **Multi-model support**: Let users pick which trained model to use for predictions, instead of one fixed model
+
 **Better data handling**: Support datasets beyond the Telco schema — auto-detect column meaning instead of assuming fixed column names
+
 **Deployment**: Add Docker support for easier self-hosting
+
 **Authentication**: If ever used with real customer data rather than practice datasets, add login/auth and data-handling safeguards
 
 ## 🤝 Contributing
