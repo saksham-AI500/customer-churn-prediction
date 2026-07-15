@@ -1,32 +1,62 @@
 # 📊 Customer Churn Prediction Dashboard
 
-An enterprise-grade ML dashboard that predicts customer churn 
-in the telecom industry using Logistic Regression.
+A Streamlit dashboard that predicts telecom customer churn using a Logistic
+Regression model trained on the IBM Telco Customer Churn dataset. Upload any
+customer CSV and get per-customer churn risk scores, the top factors driving
+each prediction, and visual breakdowns of what's driving churn across your
+whole customer base.
 
 ## 🚀 Live Demo
-[Click here to view the app](YOUR_STREAMLIT_URL)
+
+<!-- https://customer-churn-prediction-hnd2ifkefunmc4uyvzhmyb.streamlit.app/ -->
+ 
+_Deployment in progress — see "Run Locally" below to try it now._
 
 ## 📌 Features
-- Real-time churn risk prediction
-- Interactive customer risk dashboard  
-- Retention strategy simulator
-- Similar customer matching
-- Feature importance visualization
+
+- Interactive churn predictor — enter a customer's details and get a live risk score
+- Upload your own CSV of customers and get predictions for every row
+- Feature-importance chart showing what's driving each prediction
+- Risk segmentation (High / Medium / Low) with per-segment stats
+- "Similar customers" lookup — compares a customer against others with a similar profile
+- Churn-by-contract-type, tenure heatmap, and other exploratory charts
 
 ## 🛠️ Run Locally
-```
+
+```bash
+git clone https://github.com/saksham-AI500/customer-churn-prediction.git
+cd customer-churn-prediction
 pip install -r requirements.txt
-python src/train.py
-streamlit run app/app.py
+python src/train.py       # trains the model and saves it to app/
+streamlit run app/app.py  # launches the dashboard
 ```
 
+The app will open at `http://localhost:8501`.
+
 ## 📁 Project Structure
+
 ```
-├── app/          → Streamlit dashboard + model files
-├── src/          → ML pipeline (preprocess, train, predict)
+├── app/          → Streamlit dashboard (app.py) + saved model files
+├── src/          → ML pipeline (preprocess.py, train.py, predict.py)
 ├── data/         → Dataset (churn.csv)
 └── requirements.txt
 ```
 
 ## 🧰 Tech Stack
-Python | Scikit-learn | Streamlit | Plotly | Pandas | Joblib
+
+Python · Scikit-learn · Streamlit · Plotly · Pandas · Joblib
+
+## 🗺️ Roadmap
+
+- [ ] Deploy live demo on Streamlit Community Cloud
+- [ ] Add automated tests for the preprocessing pipeline
+- [ ] Add model comparison (Logistic Regression vs. Random Forest / XGBoost)
+
+## 🤝 Contributing
+
+Issues and pull requests are welcome — this is an actively maintained
+learning project and feedback helps it improve.
+
+## 📝 License
+
+MIT
