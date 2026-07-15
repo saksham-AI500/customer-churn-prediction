@@ -7,9 +7,7 @@ each prediction, and visual breakdowns of what's driving churn across your
 whole customer base.
 
 ## 🚀 Live Demo
-
-<!-- https://customer-churn-prediction-hnd2ifkefunmc4uyvzhmyb.streamlit.app/ -->
- 
+[Try it here](https://customer-churn-prediction-hnd2ifkefunmc4uyvzhmyb.streamlit.app/) 
 _Deployment in progress — see "Run Locally" below to try it now._
 
 ## 📌 Features
