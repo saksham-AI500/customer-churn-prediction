@@ -1,4 +1,4 @@
-# 📊 Customer Churn Prediction Dashboard
+<img width="1897" height="675" alt="image" src="https://github.com/user-attachments/assets/f2e609e7-38fd-407c-95a4-7f46c2503313" /># 📊 Customer Churn Prediction Dashboard
 
 A Streamlit dashboard that predicts telecom customer churn using a Logistic
 Regression model trained on the IBM Telco Customer Churn dataset. Upload any
@@ -8,6 +8,8 @@ whole customer base.
 
 ## 🚀 Live Demo
 [Try it here](https://customer-churn-prediction-hnd2ifkefunmc4uyvzhmyb.streamlit.app/) 
+App preview:
+![Uploading image.png…]()
 
 ## 📌 Features
 
