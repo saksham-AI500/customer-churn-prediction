@@ -8,7 +8,6 @@ whole customer base.
 
 ## 🚀 Live Demo
 [Try it here](https://customer-churn-prediction-hnd2ifkefunmc4uyvzhmyb.streamlit.app/) 
-_Deployment in progress — see "Run Locally" below to try it now._
 
 ## 📌 Features
 
