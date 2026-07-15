@@ -1,4 +1,5 @@
-📊 Customer Churn Prediction Dashboard
+**📊 Customer Churn Prediction Dashboard
+**
 A Streamlit dashboard that predicts telecom customer churn using a Logistic
 Regression model trained on the IBM Telco Customer Churn dataset. Upload any
 customer CSV and get per-customer churn risk scores, the top factors driving
