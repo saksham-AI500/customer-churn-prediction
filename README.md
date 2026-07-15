@@ -43,7 +43,7 @@ The app will open at `http://localhost:8501`.
 
 Python · Scikit-learn · Streamlit · Plotly · Pandas · Joblib
 
-🔭 Future Scope
+🔭 **Future Scope**
 
 **Model improvements**: Compare Logistic Regression against Random Forest, XGBoost, and LightGBM to see if accuracy/ROC-AUC can be improved
 **Explainability**: Add SHAP values for more rigorous, per-customer prediction explanations (currently uses raw model coefficients)
